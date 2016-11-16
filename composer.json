@@ -1,0 +1,16 @@
+{
+    "name": "test project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "repositories/turnaev/composer-patcher-plugin"
+        }
+    ],
+    "require": {
+        "turnaev/composer-patcher-plugin": "dev-master",
+        "doctrine/orm": "v2.5.5"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
